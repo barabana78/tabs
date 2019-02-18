@@ -40,14 +40,20 @@ header {
 .tab {
   width: 150px;
   text-transform: uppercase;
+  text-align: center;
   opacity: 0.5;
-  padding: 30px 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
+  padding-top: 70px;
   border: 2px solid transparent;
   cursor: pointer;
+}
+.tab:nth-child(1) {
+  background: #2b3040 url("../images/icoTab1.png") no-repeat center center;
+}
+.tab:nth-child(2) {
+  background: #2b3040 url("../images/icoTab2.png") no-repeat center center;
+}
+.tab:nth-child(3) {
+  background: #2b3040 url("../images/icoTab3.png") no-repeat center center;
 }
 .tab:hover {
   opacity: 1;
@@ -121,7 +127,4 @@ overflow: hidden;
 }
 .hide {
   display: none;
-}
-.show {
-  display: block;
 }
